@@ -22,7 +22,7 @@ describe('api tests: regres api', () => {
 
     test('should return a single user', async () => {
         const res = await request(baseUrl)
-            .get('/api/users/1000')
+            .get('/api/users/1')
         expect(res.statusCode).toBe(200);
         expect(res.body.data.first_name).toBe("George");
     });
