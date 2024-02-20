@@ -1,0 +1,5 @@
+npm i jest supertest jest-stare
+
+in Package.json add scripts
+    "test": "jest",
+    "test:watch": "jest --watchAll"
